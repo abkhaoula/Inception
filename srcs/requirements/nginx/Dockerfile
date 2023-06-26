@@ -5,7 +5,7 @@ RUN apt-get update && \
                 openssl vim curl
 
 
-RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -sha256 -keyout /etc/ssl/private/selfsigned-nginx.key -out /etc/ssl/certs/selfsigned-nginx.crt -subj "/C=US/ST=California/L= Francisco/O= Organization/OU= Unit/CN="
+RUN openssl req -x509 -nodes -days 365 -newkey rsa:2048 -sha256 -keyout /etc/ssl/private/selfsigned-nginx.key -out /etc/ssl/certs/selfsigned-nginx.crt -subj "/C=MC/ST=BG/L= UM6P/O= 42/OU= 1337/CN=kabdenou"
 
 
 

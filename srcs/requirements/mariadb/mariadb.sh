@@ -40,6 +40,8 @@ echo "CREATE DATABASE IF NOT EXISTS $MYSQL_DATABASE; GRANT ALL ON $MYSQL_DATABAS
 
 fi
 
+mysqladmin -u root password "$MYSQL_ROOT_PASSWORD"
+
 mysqladmin -uroot -p$MYSQL_ROOT_PASSWORD shutdown
 
 
