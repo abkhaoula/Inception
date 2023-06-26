@@ -125,3 +125,25 @@ volumes:
 networks:
   network:
     driver: bridge
+
+
+
+
+
+
+# #
+# DOMAIN_NAME=domain
+
+# MYSQL_HOSTNAME=mariadb
+# MYSQL_DATABASE=wordpress
+# MYSQL_USER=khaoula
+# MYSQL_PASSWORD=drowssap
+# MYSQL_ROOT_PASSWORD=drowssap
+
+# ### Bonus part ###
+# REDIS_PASSWORD =drowssap
+# FTP_USR=me
+# FTP_PWD=drowssap
+# USER_ID=1002
+# GROUP_ID=1002
+# ##################
