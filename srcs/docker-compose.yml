@@ -7,7 +7,6 @@ services:
     depends_on:
       - adminer
       - redis
-      - hugo
     ports:
       - 443:443
     volumes:
@@ -99,13 +98,6 @@ services:
         - network
       restart: always
       tty: true
-
-  hugo:
-    container_name: hugo
-    build: ./requirements/bonus/hugo
-    restart: always
-    networks:
-      - network
 
   static_page:
     container_name: static_page
